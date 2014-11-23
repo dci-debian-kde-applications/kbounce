@@ -23,7 +23,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kbounce.git
 Package: kbounce
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: khelpcenter4
+Recommends: khelpcenter
 Description: Jezzball arcade game
  KBounce is a game where the player builds walls to confine a number of
  bouncing balls.
