@@ -1,7 +1,7 @@
 Source: kbounce
 Section: games
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
@@ -15,10 +15,10 @@ Build-Depends: cmake,
                kdelibs5-dev (>= 4:4.11),
                libkdegames-dev (>= 4:4.11),
                pkg-kde-tools (>= 0.14)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kbounce.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kbounce.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kbounce.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kbounce.git
 
 Package: kbounce
 Architecture: any
