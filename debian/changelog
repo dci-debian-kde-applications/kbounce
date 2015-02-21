@@ -11,17 +11,11 @@ kbounce (4:14.12.2-1~) UNRELEASED; urgency=medium
 kbounce (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:34:30 -0800
-
-kbounce (4:14.12.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release
   * Remove kdelibs5-dev depend version as there was not a new release.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 12 Dec 2014 04:19:08 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:34:30 -0800
 
 kbounce (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
@@ -79,4 +73,3 @@ kbounce (4:4.10.2-1) experimental; urgency=low
   * First release of kdegames after being split by upstream.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 08 Apr 2013 20:17:20 +0200
-
