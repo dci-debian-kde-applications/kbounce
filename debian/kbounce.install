@@ -1,7 +1,4 @@
 ../icons/kbounce-16.xpm /usr/share/pixmaps
 ../icons/kbounce.xpm /usr/share/pixmaps
 usr/games/kbounce
-usr/share/applications/kde4/kbounce.desktop
-usr/share/doc/kde/HTML/*/kbounce/
-usr/share/icons/*/*/apps/kbounce.*
-usr/share/kde4/apps/kbounce/*
+usr/share/*
