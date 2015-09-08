@@ -6,7 +6,10 @@ Upstream-Contact: Roney Gomes <roney477@gmail.com>
 Source: http://www.kde.org/download/
 
 Files: *
-Copyright: 2000-2005, Stefan Schimanski <1Stein@gmx.de>
+Copyright: 2010, Andreas Scherf <ascherfy@gmail.com>
+           2006, Dmitry Suzdalev <dimsuz@gmail.com>
+           1991, Free Software Foundation, Inc
+           2000-2005, Stefan Schimanski <1Stein@gmx.de>
            2007, Tomasz Boczkowski <tboczkowski@onet.pl>
 License: LGPL-2+
 
@@ -15,16 +18,13 @@ Copyright: 2002, Aaron J Seigo
            2007, Tomasz Boczkowski <tboczkowski@onet.pl>
 License: GFDL-1.2+
 
-Files: backgroundselector.cpp
-       backgroundselector.h
-Copyright: 2010, Andreas Scherf <ascherfy@gmail.com>
-License: LGPL-2+
-
-Files: renderer.cpp
-       renderer.h
-Copyright: 2006, Dmitry Suzdalev <dimsuz@gmail.com>
-           2007, Tomasz Boczkowski <tboczkowski@onet.pl>
-License: LGPL-2+
+Files: themes/the_beach.svgz
+       themes/egyptian_bounce.svgz
+Copyright: 2005-2013, Darren Hester, Pixel Perfect Digital, Inc, (FreeSeamlessTextures.com)
+License: CC-BY
+ This work is licensed under the Creative Commons Attribution
+ International License. To view a copy of this license, visit
+ http://creativecommons.org/licenses/by/3.0/us/.
 
 Files: debian/*
 Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
