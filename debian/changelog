@@ -1,3 +1,9 @@
+kbounce (4:15.08.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 16:15:34 +0200
+
 kbounce (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
