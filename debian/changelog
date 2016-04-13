@@ -1,3 +1,11 @@
+kbounce (4:15.12.3-1~1.gbp22b450) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @22b4504ec02f763df95f5067a36f67eb273167be **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:47:06 +0200
+
 kbounce (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
