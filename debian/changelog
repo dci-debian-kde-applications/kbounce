@@ -1,11 +1,20 @@
-kbounce (4:16.04.0-1~1.gbp6047d2) UNRELEASED; urgency=medium
+kbounce (4:16.04.0-1~2.gbpba22ed) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @ba22ed0fd0b6def848efec919a70a89ee5bb3fc6 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @6047d2f0a85634868403992c5ec1fe76160d59e8 **
 
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 03:45:16 +0200
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 13:31:17 +0200
 
 kbounce (4:15.12.0-1) experimental; urgency=medium
 
