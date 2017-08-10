@@ -44,6 +44,8 @@ Package: kbounce
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: Jezzball arcade game
  KBounce is a game where the player builds walls to confine a number of
  bouncing balls.
