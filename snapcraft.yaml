@@ -1,0 +1,49 @@
+---
+name: kbounce
+version: 17.08.1
+summary: Jezzball arcade game
+description: |-
+ KBounce is a game where the player builds walls to confine a number of
+ bouncing balls.
+confinement: strict
+grade: stable
+apps:
+    kbounce:
+        command: kf5-launch kbounce
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kbounce:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - kio-dev
+        - libkf5kdegames-dev
+        - libkf5kdelibs4support-dev
+        - libphonon4qt5-dev
+        - libphonon4qt5experimental-dev
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/kbounce-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
